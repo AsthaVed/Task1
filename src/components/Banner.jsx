@@ -25,7 +25,7 @@ export default function Banner() {
               Thousands of Professionals using LeadCRM
             </p>
           </div>
-          <p className="font-semibold text-center font-exo text-[35px] md:text-[40px] lg:text-[50px] leading-[1.1]">
+          <p className="font-semibold text-center font-exo text-[30px] sm:text-[35px] md:text-[40px] lg:text-[50px] leading-[1.1]">
             LinkedIn CRM Integration
             <br />
             Capture, Sync and Enrich in{" "}
@@ -39,7 +39,7 @@ export default function Banner() {
             </span>
           </p>
 
-          <p className="text-center max-w-[70%] mx-auto mt-[1%] font-semibold">
+          <p className="text-center max-w-[90%] sm:max-w-[70%] mx-auto mt-[1%] font-semibold">
             Automatically sync LinkedIn prospects to your CRM and overlay
             existing CRM contacts on LinkedIn profiles. Complete bi-directional
             integration with HubSpot, Salesforce, and Pipedrive.

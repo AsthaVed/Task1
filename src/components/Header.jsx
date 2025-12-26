@@ -61,17 +61,17 @@ export default function Header() {
       {/* Mobile Dropdown Menu */}
       {open && (
         <div className="sm:hidden px-4 py-4 space-y-4 border-t">
-          <p>Product</p>
+          <p className="flex items-center gap-2">Product <img src={vector} className="w-[14px]" /></p>
           <p>Pricing</p>
-          <p>Resources</p>
-          <p>Company</p>
+          <p className="flex items-center gap-2">Resources <img src={vector} className="w-[14px]" /></p>
+          <p className="flex items-center gap-2">Company <img src={vector} className="w-[14px]" /></p>
 
           <button className="w-full bg-[#2D96BC] text-white py-2 rounded-lg">
             Get your free account
           </button>
 
-          <button className="w-full border border-[#2D96BC] text-[#2D96BC] py-2 rounded-lg">
-            Login
+          <button className="w-full border border-[#2D96BC] text-[#2D96BC] py-2 rounded-lg flex items-center text-center justify-center gap-2">
+           <img src={login} /> Login
           </button>
         </div>
       )}

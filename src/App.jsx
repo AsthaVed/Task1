@@ -10,6 +10,7 @@ import LinkedInSolutions from './components/LinkedInSolutions'
 import SupportedCRM from './components/SupportedCRM'
 import HeroSection from './components/HeroSection'
 import Footer from './components/Footer'
+import FloatingCTA from './components/FloatingCTA'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <SupportedCRM />
       <HeroSection />
       <Footer />
+      <FloatingCTA />
     </>
   )
 }
