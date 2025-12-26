@@ -17,14 +17,14 @@ export default function FloatingCTA() {
 
   return (
     <div
-      className={`fixed bottom-4 left-1/2 -translate-x-1/2 z-50 transition-all duration-500
+      className={`fixed bottom-4 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 shadow-2xl shadow-gray-400 rounded-xl
         ${show ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20 pointer-events-none"}
       `}
     >
       <div className="bg-white shadow-xl rounded-xl px-4 sm:px-6 py-4 flex flex-col items-center gap-4 w-[95vw] max-w-[900px]">
         
         {/* MAIN CTA */}
-        <div className="flex flex-col sm:flex-row items-center gap-4 bg-[#FFEEFE] p-4 rounded-xl w-full">
+        <div className="flex flex-col sm:flex-row items-center gap-4 bg-[#FFEEFE] p-4 rounded-xl w-full justify-center">
           
           {/* LEFT */}
           <div className="flex flex-col sm:flex-row items-center gap-3 text-center sm:text-left">
