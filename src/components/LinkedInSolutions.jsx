@@ -66,7 +66,7 @@ export default function LinkedInSolutions() {
       </p>
 
       {/* ================= CONTENT ================= */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-6">
         {/* ========== LEFT CONTAINER ========== */}
 
         <div className="bg-white rounded-xl shadow">

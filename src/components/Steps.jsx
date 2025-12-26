@@ -26,11 +26,11 @@ export default function Steps() {
         <img
           src={image1}
           alt="arrows"
-          className="hidden md:block absolute top-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+          className="hidden sm:block absolute top-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none bg-no-repeat bg-center bg-contain"
         />
 
         {/* Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mx-auto z-10">
+        <div className="grid grid-cols-1 sm:grid-cols-4 gap-5 mx-auto z-10">
           <img src={one} alt="one" className="mx-auto" />
           <img src={two} alt="two" className="mx-auto" />
           <img src={three} alt="three" className="mx-auto" />

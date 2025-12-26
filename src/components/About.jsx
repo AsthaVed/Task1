@@ -41,7 +41,7 @@ export default function About() {
 
       {/* Cards Wrapper */}
         <div className="max-w-[1400px] mx-auto mt-10 px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1  sm:grid-cols-3 gap-6">
             {/* Card 1 */}
             <div className="bg-[#F9F0F8] rounded-2xl p-6">
               <p className="text-sm text-black leading-relaxed">
@@ -50,7 +50,7 @@ export default function About() {
                 plus, and support is very responsive.”
               </p>
 
-              <div className="flex items-center gap-2 mt-4 mb-20">
+              <div className="flex items-center gap-2 mt-4 mb-10 sm:mb-20">
                 <img src={capterra} alt="capterra" className="w-5 scale-[4.2]" />
                 <span className="text-[#090F4E] font-bold relative -top-1">★★★★★</span>
               </div>
@@ -78,7 +78,7 @@ export default function About() {
                 follow-ups more efficient.”
               </p>
 
-              <div className="flex items-center gap-2 mt-4 mb-20">
+              <div className="flex items-center gap-2 mt-4 mb-10 sm:mb-20">
                 <img src={capterra} alt="capterra" className="w-4 scale-[4.2]" />
                 <span className="text-[#090F4E] font-bold relative -top-1">★★★★★</span>
               </div>
@@ -106,7 +106,7 @@ export default function About() {
                 plus.”
               </p>
 
-              <div className="flex items-center gap-2 mt-4 mb-20">
+              <div className="flex items-center gap-2 mt-4 mb-10 sm:mb-20">
                 <img src={capterra} alt="capterra" className="w-4 scale-[4.2]" />
                 <span className="text-[#090F4E] font-bold relative -top-1">★★★★★</span>
               </div>
